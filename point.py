@@ -67,8 +67,8 @@ class Collection():
 
     def print_closest(self):
         for i in range(5):
-            print("("+str(self.userPoint.x) + "," + str(self.userPoint.y) +
-                  " closest point: " +
+            print("(" + str(self.userPoint.x) + "," + str(self.userPoint.y) +
+                  ")" + " closest point: " +
                   "(" + str(self.closestPoints[i].x) + "," +
                   str(self.closestPoints[i].y) + ")" +
                   " Distance: " + str(Point.distance(self.userPoint,
